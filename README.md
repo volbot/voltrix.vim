@@ -1,24 +1,25 @@
 # VOLTRIX.vim
+
 ### `vim`/`nvim` Plugin for [VOLTRIX](https://gitlab.com/volbot/voltrix/)
 
-&emsp; **「VOLTRIX」** is a sweet, maximalist colorscheme that invokes the whimsical uniformity of pastels, without sacrificing the placating vibrance of postmodernity.
+**「VOLTRIX」** is a sweet, maximalist colorscheme that invokes the whimsical uniformity of pastels, without sacrificing the placating vibrance of postmodernity.
 
-&emsp; This is a `vim`/`nvim` plugin, installable via your favorite plugin manager.
-
+This is its `vim`/`nvim` plugin, installable via your favorite plugin manager.
 
 ## Installation
-
-### via plugin manager
 
 `VOLTRIX.vim` should be installable by any `git`-based plugin manager. Here are a few examples:
 
 <details><summary>
 
-#### [vim-plug](https://github.com/junegunn/vim-plug)
+### [vim-plug](https://github.com/junegunn/vim-plug)
 
 </summary><br>
 
+Install like you would any other plugin:
+
 ```vim
+
 call plug#begin()
 Plug 'volbot/voltrix.vim'
 call plug#end()
@@ -34,7 +35,7 @@ colorscheme voltrix
 
 <details><summary>
 
-#### [lazy.nvim](https://github.com/folke/lazy.nvim?tab=readme-ov-file#-structuring-your-plugins)
+### [lazy.nvim](https://github.com/folke/lazy.nvim?tab=readme-ov-file#-structuring-your-plugins)
 
 </summary><br>
 
@@ -50,7 +51,7 @@ At this point, a regular `:colorscheme` command will activate `voltrix`, but mos
 
 </details>
 
-### manually
+### Manual Installation
 
 Simply download `voltrix.vim` from the downloads page, put it in your relevant `colors` directory, and enable.
 
