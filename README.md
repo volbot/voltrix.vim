@@ -1,14 +1,16 @@
-# VOLTRIX.vim
+# voltrix.vim
 
-### `vim`/`nvim` Plugin for [VOLTRIX](https://gitlab.com/volbot/voltrix/)
+### `vim`/`nvim` Plugin for [voltrix](https://github.com/volbot/voltrix/)
 
-**「VOLTRIX」** is a sweet, maximalist colorscheme that invokes the whimsical uniformity of pastels, without sacrificing the placating vibrance of postmodernity.
+**「voltrix」** is a sweet, maximalist colorscheme that invokes the whimsical uniformity of pastels, without sacrificing the placating vibrance of postmodernity.
 
 This is its `vim`/`nvim` plugin, installable via your favorite plugin manager.
 
+> voltrix is also available for Alacritty and Fallout 4 at the [main repository](https://github.com/volbot/voltrix/).
+
 ## Installation
 
-`VOLTRIX.vim` should be installable by any `git`-based plugin manager. Here are a few examples:
+`voltrix.vim` should be installable by any `git`-based plugin manager. Here are a few examples:
 
 <details><summary>
 
@@ -81,6 +83,3 @@ I used a combination of these before switching to `nvim`. Option #1 can be cpu-t
 
 Like with `vim`, this boils down to preference, but `nvim`'s proclivity for language processing allows for far better detail with far less intervention.
 
-## Source
-
-The source colortemplate and a few other distributions are available on [GitLab](https://gitlab.com/volbot/voltrix).
