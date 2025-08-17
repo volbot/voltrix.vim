@@ -7,6 +7,10 @@ Author: allomyrina volbot <tech@volbot.org>
 Description: a sweet, maximalist colorscheme for Vim
 ; }}}
 
+Environments: gui 256 16 8
+
+Background: dark
+
 ; voltrix Color palette {{{
 ; Color name         GUI                 Base256           Base16
 Color: black         #090609             ~                 Black
@@ -35,8 +39,7 @@ Color: burntorange   #de6047             ~                 Red
 
 ; voltrix Terminal colors {{{
 ; Define terminal colors (for immersion)
-Term colors: black pink green gorod blue orchid aqua lightgray
-Term colors: gray lightpink lightgreen lightgorod lightblue lightorchid lightaqua white
+Term colors: black pink green gorod blue orchid aqua lightgray gray lightpink lightgreen lightgorod lightblue lightorchid lightaqua white
 
 ; }}}
 
@@ -45,7 +48,6 @@ Boolean           -> Constant
 Character         -> Constant
 Conditional       -> Statement
 CursorLineFold    -> FoldColumn
-Search            -> Search
 Debug             -> Special
 Define            -> PreProc
 Delimiter         -> Special
@@ -80,25 +82,12 @@ lCursor           -> Cursor
 ; }}}
 
 ; voltrix Highlight groups {{{
-Background: dark
-
-Variant: 256 8
-
-Normal               white               none
-Terminal             white               none
-CursorLine           omit                black
-StatusLineTerm       white               royalpurple       bold
-StatusLineNC         lightgray           gray              bold
-
-Variant: gui
 
 Normal               white               none
 Terminal             white               none
 CursorLine           omit                black
 StatusLineTerm       white               royalpurple       bold
 StatusLineTermNC     lightgray           truegreen         bold
-
-Variant: gui 256 8
 
 ; Group              Foreground          Background        Attributes
 ; vim specific
@@ -113,7 +102,7 @@ LineNr               gorod               none              bold
 Search               white               truegreen
 Visual               fg                  royalpurple
 StatusLine           white               royalpurple       bold
-StatusLineNC         lightgray           black             bold
+StatusLineNC         lightgray           gray              bold
 
 ToolbarLine          white               black
 ToolbarButton        white               truegreen         bold
@@ -133,7 +122,8 @@ Identifier           pink                none
 Ignore               black               none
 PreProc              blue                none
 Special              pink                none              bold
-Statement            gorod               none              g=bold
+Statement            gorod               none              
+/gui		     omit		 omit		   bold
 Type                 green               none              bold
 Underlined           blue                none              underline
 
